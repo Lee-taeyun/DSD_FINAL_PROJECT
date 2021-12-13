@@ -1,0 +1,88 @@
+Circuit: * D:\DSD_FINAL_PROJECT\ALL.asc
+
+x8:v6: Removing PWL point (1e-009,0)
+x8:v6: Removing PWL point (5e-009,1)
+x8:v5: Removing PWL point (1e-009,0)
+x8:v5: Removing PWL point (9e-009,1)
+x8:v4: Removing PWL point (1e-009,0)
+x8:v4: Removing PWL point (5e-009,0)
+x8:v4: Removing PWL point (7e-009,1)
+x8:v3: Removing PWL point (1e-009,0)
+x8:v3: Removing PWL point (4e-009,1)
+x8:v2: Removing PWL point (2e-009,0)
+x8:v2: Removing PWL point (9e-009,1)
+x8:v1: Removing PWL point (1e-009,1)
+x8:v1: Removing PWL point (6e-009,1)
+x8:v1: Removing PWL point (9e-009,1)
+x1:v6: Removing PWL point (1e-009,0)
+x1:v6: Removing PWL point (5e-009,1)
+x1:v5: Removing PWL point (1e-009,0)
+x1:v5: Removing PWL point (9e-009,1)
+x1:v4: Removing PWL point (1e-009,0)
+x1:v4: Removing PWL point (5e-009,0)
+x1:v4: Removing PWL point (7e-009,1)
+x1:v3: Removing PWL point (1e-009,0)
+x1:v3: Removing PWL point (4e-009,1)
+x1:v2: Removing PWL point (2e-009,0)
+x1:v2: Removing PWL point (9e-009,1)
+x1:v1: Removing PWL point (1e-009,1)
+x1:v1: Removing PWL point (6e-009,1)
+x1:v1: Removing PWL point (9e-009,1)
+WARNING: Node X2:NC_01 is floating.
+WARNING: Node X3:NC_01 is floating.
+WARNING: Node X5:NC_01 is floating.
+WARNING: Node X6:NC_01 is floating.
+WARNING: Node X4:NC_01 is floating.
+WARNING: Node X7:NC_01 is floating.
+WARNING: Node X9:NC_01 is floating.
+WARNING: Node X10:NC_01 is floating.
+
+WARNING: Less than two connections to node X2:NC_01.  This node is used by M:X2:U18:1.
+WARNING: Less than two connections to node X3:NC_01.  This node is used by M:X3:U18:1.
+WARNING: Less than two connections to node NC_01.  This node is used by V:X1:7.
+WARNING: Less than two connections to node X5:NC_01.  This node is used by M:X5:U18:1.
+WARNING: Less than two connections to node X6:NC_01.  This node is used by M:X6:U18:1.
+WARNING: Less than two connections to node X4:NC_01.  This node is used by M:X4:U18:1.
+WARNING: Less than two connections to node X7:NC_01.  This node is used by M:X7:U18:1.
+WARNING: Less than two connections to node NC_02.  This node is used by V:X8:7.
+WARNING: Less than two connections to node X9:NC_01.  This node is used by M:X9:U18:1.
+WARNING: Less than two connections to node X10:NC_01.  This node is used by M:X10:U18:1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Dec 13 21:31:34 2021
+Total elapsed time: 3.609 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4184
+traniter = 3629
+tranpoints = 1529
+accept = 1421
+rejected = 108
+matrix size = 1214
+fillins = 176
+solver = Normal
+Thread vector: 446.4/128.4[8] 120.1/14.4[8] 41.0/9.8[8] 11.2/7.9[6]  2592/500
+Matrix Compiler1: 211.24 KB object code size  134.8/59.1/[27.4]
+Matrix Compiler2: 158.10 KB object code size  62.1/48.3/[15.7]
+

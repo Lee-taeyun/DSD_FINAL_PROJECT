@@ -1,0 +1,42 @@
+Circuit: * D:\DSD_FINAL_PROJECT\Draft1.asc
+
+V6: Removing PWL point (1e-009,0)
+V6: Removing PWL point (5e-009,1)
+V5: Removing PWL point (1e-009,0)
+V5: Removing PWL point (9e-009,1)
+V4: Removing PWL point (1e-009,0)
+V4: Removing PWL point (5e-009,0)
+V4: Removing PWL point (7e-009,1)
+V3: Removing PWL point (1e-009,0)
+V3: Removing PWL point (4e-009,1)
+V2: Removing PWL point (2e-009,0)
+V2: Removing PWL point (9e-009,1)
+V1: Removing PWL point (1e-009,1)
+V1: Removing PWL point (6e-009,1)
+V1: Removing PWL point (9e-009,1)
+WARNING: Less than two connections to node INPUT3.  This node is used by V1.
+WARNING: Less than two connections to node INPUT4.  This node is used by V2.
+WARNING: Less than two connections to node INPUT1.  This node is used by V3.
+WARNING: Less than two connections to node INPUT2.  This node is used by V4.
+WARNING: Less than two connections to node INPUT5.  This node is used by V5.
+WARNING: Less than two connections to node INPUT6.  This node is used by V6.
+WARNING: Less than two connections to node CLK.  This node is used by V7.
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Dec 13 20:50:18 2021
+Total elapsed time: 0.062 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3045
+traniter = 3042
+tranpoints = 1522
+accept = 1412
+rejected = 110
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 186 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: 550 bytes object code size  0.1/0.1/[0.0]
+
