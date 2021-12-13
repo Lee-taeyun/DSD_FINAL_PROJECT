@@ -1,33 +1,33 @@
 Circuit: * D:\DSD_FINAL_PROJECT\ALL.asc
 
 x8:v6: Removing PWL point (1e-009,0)
-x8:v6: Removing PWL point (5e-009,1)
+x8:v6: Removing PWL point (5e-009,1.2)
 x8:v5: Removing PWL point (1e-009,0)
-x8:v5: Removing PWL point (9e-009,1)
+x8:v5: Removing PWL point (9e-009,1.2)
 x8:v4: Removing PWL point (1e-009,0)
 x8:v4: Removing PWL point (5e-009,0)
-x8:v4: Removing PWL point (7e-009,1)
+x8:v4: Removing PWL point (7e-009,1.2)
 x8:v3: Removing PWL point (1e-009,0)
-x8:v3: Removing PWL point (4e-009,1)
+x8:v3: Removing PWL point (4e-009,1.2)
 x8:v2: Removing PWL point (2e-009,0)
-x8:v2: Removing PWL point (9e-009,1)
-x8:v1: Removing PWL point (1e-009,1)
-x8:v1: Removing PWL point (6e-009,1)
-x8:v1: Removing PWL point (9e-009,1)
+x8:v2: Removing PWL point (9e-009,1.2)
+x8:v1: Removing PWL point (1e-009,1.2)
+x8:v1: Removing PWL point (6e-009,1.2)
+x8:v1: Removing PWL point (9e-009,1.2)
 x1:v6: Removing PWL point (1e-009,0)
-x1:v6: Removing PWL point (5e-009,1)
+x1:v6: Removing PWL point (5e-009,1.2)
 x1:v5: Removing PWL point (1e-009,0)
-x1:v5: Removing PWL point (9e-009,1)
+x1:v5: Removing PWL point (9e-009,1.2)
 x1:v4: Removing PWL point (1e-009,0)
 x1:v4: Removing PWL point (5e-009,0)
-x1:v4: Removing PWL point (7e-009,1)
+x1:v4: Removing PWL point (7e-009,1.2)
 x1:v3: Removing PWL point (1e-009,0)
-x1:v3: Removing PWL point (4e-009,1)
+x1:v3: Removing PWL point (4e-009,1.2)
 x1:v2: Removing PWL point (2e-009,0)
-x1:v2: Removing PWL point (9e-009,1)
-x1:v1: Removing PWL point (1e-009,1)
-x1:v1: Removing PWL point (6e-009,1)
-x1:v1: Removing PWL point (9e-009,1)
+x1:v2: Removing PWL point (9e-009,1.2)
+x1:v1: Removing PWL point (1e-009,1.2)
+x1:v1: Removing PWL point (6e-009,1.2)
+x1:v1: Removing PWL point (9e-009,1.2)
 WARNING: Node X2:NC_01 is floating.
 WARNING: Node X3:NC_01 is floating.
 WARNING: Node X5:NC_01 is floating.
@@ -56,33 +56,44 @@ Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
-Gmin = 2.18725e-010
-Gmin = 2.34854e-011
-Gmin = 2.52173e-012
-Gmin = 2.70769e-013
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 4.01735e-006
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
 
 
-Date: Mon Dec 13 21:31:34 2021
-Total elapsed time: 3.609 seconds.
+Date: Mon Dec 13 22:27:18 2021
+Total elapsed time: 64.427 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 4184
-traniter = 3629
-tranpoints = 1529
-accept = 1421
-rejected = 108
-matrix size = 1214
-fillins = 176
+totiter = 5953
+traniter = 3785
+tranpoints = 1560
+accept = 1429
+rejected = 131
+matrix size = 1268
+fillins = 1608
 solver = Normal
-Thread vector: 446.4/128.4[8] 120.1/14.4[8] 41.0/9.8[8] 11.2/7.9[6]  2592/500
-Matrix Compiler1: 211.24 KB object code size  134.8/59.1/[27.4]
-Matrix Compiler2: 158.10 KB object code size  62.1/48.3/[15.7]
+Thread vector: 458.1/189.5[8] 188.9/24.6[8] 39.9/9.6[8] 11.9/6.7[5]  2592/500
+Matrix Compiler1: 358.65 KB object code size  311.8/144.8/[57.3]
+Matrix Compiler2: 189.24 KB object code size  71.3/55.4/[15.4]
 
